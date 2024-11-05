@@ -18,3 +18,8 @@ hooks:
     - location: scripts/start.sh
       timeout: 180
       runas: ubuntu
+
+on:
+  push:
+    branches:
+      - main 
